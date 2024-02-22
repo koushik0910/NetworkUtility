@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum DataError: Error {
+public enum DataError: Error {
     case invalidResponse
     case network(Error?)
 }
